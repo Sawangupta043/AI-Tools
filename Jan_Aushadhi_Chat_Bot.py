@@ -4,7 +4,7 @@ from openai import OpenAI
 import streamlit as st
 from AI_CHAT import *
 
-gemini_model = OpenAI(api_key='AIzaSyAIA-dbtiQQKBMdfYpaVZoSQUo-ujGvbXo', base_url="https://generativelanguage.googleapis.com/v1beta/openai/")
+gemini_model = OpenAI(api_key='Enter_your_Gemini_API_KEY', base_url="https://generativelanguage.googleapis.com/v1beta/openai/")
 
 def chat_bot(prompt):
     mymessage = [
@@ -37,4 +37,5 @@ def main():
             st.warning("Please enter a valid query to search.")
 
 if __name__ == "__main__":
+
     main()
