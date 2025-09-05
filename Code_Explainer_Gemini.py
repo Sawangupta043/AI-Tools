@@ -1,4 +1,4 @@
-Key = "AIzaSyAIA-dbtiQQKBMdfYpaVZoSQUo-ujGvbXo"
+Key = "Enter_your_Gemini_API_KEY"
 
 
 from openai import OpenAI
