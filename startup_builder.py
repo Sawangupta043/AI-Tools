@@ -3,7 +3,7 @@ from langchain_core.tools import tool
 from langchain.agents import initialize_agent, AgentType
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-api_key = "AIzaSyClsxpM-1g2eCVWECPZGrpXFuz79-6v5fA"
+api_key = "Enter_your_Gemini_API_KEY"
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
     google_api_key=api_key,
@@ -70,4 +70,5 @@ if run_button and idea:
     st.markdown(deck)
 
     st.markdown("### 🗣️ Elevator Pitch")
+
     st.markdown(pitch)
